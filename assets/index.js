@@ -122,11 +122,11 @@ async function updateStockData(symbol, chart, priceElement, timeElement, percent
     }
 }
 
-// Update stock data every 10 seconds for both Google and Apple
+// Update stock data every 60 seconds for both Google and Apple
 setInterval(async () => {
     googlePreviousPrice = await updateStockData('GOOGL', googleChart, document.getElementById('googlePrice'), document.getElementById('googleTime'), document.getElementById('googlePercentageChange'), googlePreviousPrice);
     applePreviousPrice = await updateStockData('AAPL', appleChart, document.getElementById('applePrice'), document.getElementById('appleTime'), document.getElementById('applePercentageChange'), applePreviousPrice);
-}, 60000); // 10 seconds interval
+}, 60000); // 60 seconds interval
 
 // Initial fetch of stock data (will not show the new data label)
 (async () => {
