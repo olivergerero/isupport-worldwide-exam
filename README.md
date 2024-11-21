@@ -18,13 +18,11 @@ Before running this application, make sure you have the following:
 - Internet connection to fetch stock data from the Finnhub API.
 - A [Finnhub API key](https://finnhub.io/) (you can get one by registering for a free account on Finnhub).
 
-## Setup Instructions
+## Setup Instructions and Run the Project
 
 1. **Clone the repository** (if you haven't already):
 
   ```bash
-  git clone https://github.com/olivergerero/isupport-worldwide-exam.git
-  cd isupport-worldwide-exam
-
-
-2. Run the index.html
+  - git clone https://github.com/olivergerero/isupport-worldwide-exam.git
+  - cd isupport-worldwide-exam
+  - Run the index.html
