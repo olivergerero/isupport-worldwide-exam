@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  text-align: center;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+canvas {
+  width: 100% !important;
+  height: auto !important;
+}
+
+h2, p {
+  text-align: left;
+  margin: 0;
+}
+
+#newDataLabel {
+  display: block; 
+  padding: 10px; 
+  background-color: #4CAF50; 
+  color: white; 
+  font-weight: bold;
+  opacity: 0;
+  border-radius: 8px;
+}
+
+#refreshButton {
+  padding: 10px 20px; 
+  background-color: #008CBA; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.chart__container {
+  display: flex;
+  column-gap: 30px;
+}
+
+.chart__container > div {
+  width: 50%;
+  background-color: rgb(255 255 255 / 70%);
+  padding: 30px;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.chart-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+
+.chart-header > div p {
+  text-align: right;
+  margin: 0;
+}
+
+#googlePercentageChange,
+#applePercentageChange {
+  font-size: 28px;
+}
+
+#googleTime,
+#appleTime {
+  font-size: 12px;
+}
+
+#googlePrice,
+#applePrice {
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  .chart__container {
+    flex-wrap: wrap;
+  }
+
+  .chart__container > div {
+    width: 100%;
+  }
+}
