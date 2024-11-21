@@ -1,6 +1,6 @@
 # Real-time Stock Data with Chart.js and Finnhub API
 
-This project provides a real-time stock data visualization for Google (GOOGL) and Apple (AAPL) using the [Finnhub API](https://finnhub.io/) and [Chart.js](https://www.chartjs.org/). The stock prices are updated every 10 seconds and are displayed on line charts, with the option to manually refresh the data.
+This project provides a real-time stock data visualization for Google (GOOGL) and Apple (AAPL) using the [Finnhub API](https://finnhub.io/) and [Chart.js](https://www.chartjs.org/). The stock prices are updated every minute and are displayed on line charts, with the option to manually refresh the data.
 
 ## Features
 
