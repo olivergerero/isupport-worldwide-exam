@@ -26,5 +26,6 @@ Before running this application, make sure you have the following:
   git clone https://github.com/olivergerero/isupport-worldwide-exam.git
   cd isupport-worldwide-exam
 
-## How to use
+## How to run the project
+
 1. Run the index.html
